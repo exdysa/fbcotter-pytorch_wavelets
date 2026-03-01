@@ -1,7 +1,7 @@
 import os
 import re
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 # Utility function to read the README file.
@@ -25,7 +25,7 @@ setup(
     license="Free To Use",
     keywords="pytorch, DWT, DTCWT, wavelet, complex wavelet",
     url="https://github.com/fbcotter/pytorch_wavelets",
-    packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
+    packages=["pytorch_wavelets"],
     long_description=read('README.rst'),
     classifiers=[
         "Development Status :: 3 - Alpha",
