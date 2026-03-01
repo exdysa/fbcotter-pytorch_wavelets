@@ -25,7 +25,7 @@ setup(
     license="Free To Use",
     keywords="pytorch, DWT, DTCWT, wavelet, complex wavelet",
     url="https://github.com/fbcotter/pytorch_wavelets",
-    packages=["pytorch_wavelets"],
+    packages=["pytorch_wavelets","pytorch_wavelets.dtcwt","pytorch_wavelets.dtcwt.data","pytorch_wavelets.dwt","pytorch_wavelets.scatternet"],
     long_description=read('README.rst'),
     classifiers=[
         "Development Status :: 3 - Alpha",
